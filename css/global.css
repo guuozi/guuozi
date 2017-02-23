@@ -1,0 +1,8 @@
+﻿/* Public */
+@charset "utf-8";
+*{margin:0px;padding:0px;}
+html{ font-size:62.5%;}
+body{font-family:"Microsoft YaHei","simsun",Arial; font-size:14px; line-height:1.5; color:#444; overflow-x:hidden;}
+li,ul{list-style:none;}
+a{ text-decoration: none; color:mediumseagreen;}
+a:hover{color:steelblue;}
