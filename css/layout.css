@@ -1,13 +1,17 @@
 
-body{background:url(../img/timg.jpg) center center no-repeat; background-attachment:fixed; background-size:cover;}
+body{
+  background:url(../img/timg.jpg) center center no-repeat;
+  background-size: cover;
+	background-attachment: fixed;
+}
 .main{padding:2% 22%; background-color: #FFF;}
-header{padding:9vh 0 19vh;  color: gray}
+header{padding:9vh 0;  color: gray}
 #logo{text-align: center;}
 #logo>a{background: url(../img/my.jpg) no-repeat center center; display: inline-block; width: 10vh; height: 10vh; background-size: contain; border-radius: 50%;}
 #logo::before{ content:"郭智远"; font-size：10vw;}
 #logo::after{ content:"深圳"; font-size：10vw;}
-.jiben{columns:0 3; text-align:center;}
-.jiben>p{padding:1.6vh 0;}
+.jiben{padding:2vh 0;columns:0 3; text-align:center;}
+.jiben p{padding:1.6vh 0;}
 [data-faq]::before {
     content: attr(data-faq);
     display: block;
