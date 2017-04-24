@@ -4,7 +4,7 @@
 }
 @media screen and (max-width:768px){
 	.main{padding:2% 6%;}
-	.jiben{columns:0 1;}
+	.jiben{columns:auto 1;}
 }
 @media screen and (max-width:480px)
 {
