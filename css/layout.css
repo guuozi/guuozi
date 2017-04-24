@@ -24,13 +24,6 @@ header{padding:9vh 0;  color: gray;}
 [data-faq="github"]>a:hover::after{
 	content: "/Xdyy";
 }
-[data-faq="github"]>a:hover::before{
-	content: "没什么东西o`.`"; position: absolute; white-space: nowrap;
-	color:#fff;
-	bottom:101%;
-	left:100%;
-	
-}
 
 article{margin:3vh 0;}
 .project{ border-bottom:1px solid #ccc;padding-bottom:1vh;}
